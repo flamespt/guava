@@ -17,7 +17,6 @@ package com.google.common.hash;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.base.Preconditions.checkNotNull;
 
-import com.google.common.annotations.Beta;
 import com.google.errorprone.annotations.Immutable;
 import java.security.Key;
 import java.util.ArrayList;
@@ -42,7 +41,6 @@ import org.checkerframework.checker.nullness.qual.Nullable;
  * @author Kurt Alfred Kluever
  * @since 11.0
  */
-@Beta
 public final class Hashing {
   /**
    * Returns a general-purpose, <b>temporary-use</b>, non-cryptographic hash function. The algorithm

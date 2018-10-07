@@ -14,7 +14,6 @@
 
 package com.google.common.hash;
 
-import com.google.common.annotations.Beta;
 import com.google.common.primitives.Ints;
 import com.google.errorprone.annotations.Immutable;
 import java.nio.ByteBuffer;
@@ -117,7 +116,6 @@ import java.nio.charset.Charset;
  * @author Kevin Bourrillion
  * @since 11.0
  */
-@Beta
 @Immutable
 public interface HashFunction {
   /**
